@@ -1,7 +1,6 @@
 ﻿using UnityEngine;
-using UnityEngine.Serialization;
 
-namespace Messenger.GeneralKingdomData
+namespace Messenger.GeneralKingdomData.ScriptableObjects
 {
     [CreateAssetMenu( menuName = "Writing Style", fileName = "New Writing Style")]
     public class WritingStyle : ScriptableObject

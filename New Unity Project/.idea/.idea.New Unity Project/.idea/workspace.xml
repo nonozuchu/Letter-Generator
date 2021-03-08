@@ -1,46 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ea7a79f9-cb9c-4853-ae6c-e9a4ba33b623" name="Default Changelist" comment="added namespaces">
-      <change afterPath="$PROJECT_DIR$/Assets/Kingdoms/Kings.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Kingdoms/Kings/WritingStyles.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Kingdoms/Kings/WritingStyles/Friendly Writing Style.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Kingdoms/Kings/WritingStyles/Friendly Writing Style.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Kingdoms/Kings/WritingStyles/Paragraphs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Kingdoms/Kings/WritingStyles/Paragraphs/Friendly paragraphs.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Kingdoms/Kings/WritingStyles/Paragraphs/Friendly paragraphs.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Kingdoms/Kings/king 1.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Kingdoms/Kings/king 1.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/GeneralKingdomData.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/GeneralKingdomData/KingData.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/GeneralKingdomData/Paragraphs.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/GeneralKingdomData/WritingStyle.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/ScriptableObjects.meta" afterDir="false" />
+    <list default="true" id="ea7a79f9-cb9c-4853-ae6c-e9a4ba33b623" name="Default Changelist" comment="Is now stable andonly derives form _letterTesxt">
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/GeneralKingdomData/MonoBehaviour.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/GeneralKingdomData/MonoBehaviour/Kingdom.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/GeneralKingdomData/MonoBehaviour/Kingdom.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/GeneralKingdomData/ScriptableObjects.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.New Unity Project/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.New Unity Project/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Kingdoms/Abyss Kingdom Data.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Kingdoms/Abyss Kingdom Data.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Kingdoms/Mountain Kingdom Data.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Kingdoms/Mountain Kingdom Data.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Kingdoms/Normal Kingdom Data.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Kingdoms/Normal Kingdom Data.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Kingdoms/Water Kingdom Data.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Kingdoms/Water Kingdom Data.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Paragraph 1.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Paragraph 1.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Paragraph 2.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Paragraph 2.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Paragraph 3.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Paragraph 3.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Paragraph 4.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Paragraph 4.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/CoreData/KingData.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/CoreData/KingData.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/GeneralKingdomData/KingData.cs.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/CoreData/KingdomData.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/CoreData/KingdomData.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/CoreData/Paragraph.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/CoreData/Paragraph.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/GeneralKingdomData/Paragraphs.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/CoreData/WritingStyle.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/CoreData/WritingStyle.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/GeneralKingdomData/WritingStyle.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/MonoBehaviorScripts/LetterManagers/LetterManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/MonoBehaviorScripts/LetterManagers/LetterManager.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/MonoBehaviorScripts/LetterManagers/LetterTextManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/MonoBehaviorScripts/LetterManagers/LetterTextManager.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/ScriptableObjects/GeneralKingdomData.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/GeneralKingdomData/KingData.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/GeneralKingdomData/ScriptableObjects/KingData.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/GeneralKingdomData/KingData.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/GeneralKingdomData/ScriptableObjects/KingData.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/GeneralKingdomData/Paragraphs.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/GeneralKingdomData/ScriptableObjects/Paragraphs.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/GeneralKingdomData/Paragraphs.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/GeneralKingdomData/ScriptableObjects/Paragraphs.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/GeneralKingdomData/WritingStyle.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/GeneralKingdomData/ScriptableObjects/WritingStyle.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/GeneralKingdomData/WritingStyle.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/GeneralKingdomData/ScriptableObjects/WritingStyle.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/ScriptableObjects.meta" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,6 +25,7 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="mock://C:/Users/Windows 10/Desktop/Noah/meus jogos/Letter Generator/Letter-Generator/New Unity Project/Assets/Kingdoms/Abyss Kingdom Data.asset" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/MonoBehaviorScripts/LetterManagers/LetterStampManager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/MonoBehaviorScripts/LetterManagers/LetterManager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/A1AC446D-F41C-4A67-BECF-2F8317DC1792/05/109600a1/HideInInspector.cs" root0="SKIP_HIGHLIGHTING" />
@@ -73,6 +48,7 @@
       <option value="$PROJECT_DIR$/Assets/Scripts/GeneralKingdomData/WritingStyle.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/GeneralKingdomData/Paragraphs.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/MonoBehaviorScripts/LetterManagers/LetterTextManager.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/GeneralKingdomData/MonoBehaviour/Kingdom.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1pOGH5X6Q63dEk5w11WnvaFeMIL" />
@@ -125,7 +101,7 @@
       <workItem from="1615121556194" duration="246000" />
       <workItem from="1615122443245" duration="312000" />
       <workItem from="1615122921852" duration="19224000" />
-      <workItem from="1615203731012" duration="872000" />
+      <workItem from="1615203731012" duration="2396000" />
     </task>
     <task id="LOCAL-00001" summary="added namespaces">
       <created>1615131086163</created>
@@ -134,7 +110,14 @@
       <option name="project" value="LOCAL" />
       <updated>1615131086163</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Is now stable andonly derives form _letterTesxt">
+      <created>1615206542956</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1615206542956</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="UnityProjectConfiguration" hasMinimizedUI="true" />
@@ -155,6 +138,7 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
     <MESSAGE value="added namespaces" />
-    <option name="LAST_COMMIT_MESSAGE" value="added namespaces" />
+    <MESSAGE value="Is now stable andonly derives form _letterTesxt" />
+    <option name="LAST_COMMIT_MESSAGE" value="Is now stable andonly derives form _letterTesxt" />
   </component>
 </project>

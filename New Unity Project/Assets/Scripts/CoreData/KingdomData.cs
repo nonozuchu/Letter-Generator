@@ -1,4 +1,5 @@
 ﻿using Messenger.GeneralKingdomData;
+using Messenger.GeneralKingdomData.ScriptableObjects;
 using UnityEngine;
 
 namespace Messenger.CoreData

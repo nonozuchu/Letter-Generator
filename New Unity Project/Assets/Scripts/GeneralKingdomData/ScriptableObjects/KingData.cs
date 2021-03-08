@@ -1,6 +1,6 @@
 ﻿using UnityEngine;
 
-namespace Messenger.GeneralKingdomData
+namespace Messenger.GeneralKingdomData.ScriptableObjects
 {
     [CreateAssetMenu( menuName = "King", fileName = "New King from KingdomName Kingdom")]
     public class KingData : ScriptableObject
