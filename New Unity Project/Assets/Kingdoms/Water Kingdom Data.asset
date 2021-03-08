@@ -12,5 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7cc123c4bd42a664085bd30a4caecac1, type: 3}
   m_Name: Water Kingdom Data
   m_EditorClassIdentifier: 
+  king: {fileID: 11400000, guid: ef07f4ac7c57b0748b9574bfab2f1a93, type: 2}
   kingdomName: Water Kingdom
   kingdomStamp: {fileID: 21300000, guid: a6739003aab3dc04bb229e9f23ec3ec7, type: 3}

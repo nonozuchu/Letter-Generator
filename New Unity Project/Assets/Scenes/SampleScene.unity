@@ -459,7 +459,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d7e9032002d38524199cf9d59d37f13e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _kingdoms:
+  kingdoms:
   - {fileID: 11400000, guid: 59309e4b4d025154f879c93e2ec3f16f, type: 2}
   - {fileID: 11400000, guid: 83eebf0c22956fc4caea31eeaab02c64, type: 2}
   - {fileID: 11400000, guid: 7bd61c0364775884bbd59cc68b6f95e2, type: 2}
@@ -611,10 +611,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4f6aeba5a01ab654f9adaae54cd192fe, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _firstParagraph: {fileID: 11400000, guid: d6791137d91d08d4a9ff895eed450359, type: 2}
-  _secondParagraph: {fileID: 11400000, guid: 46036f3c3a8763841aa2d59bfd58ee20, type: 2}
-  _thirdParagraph: {fileID: 11400000, guid: 71eff3d95a7cdad45bbe3b6f2ac4fede, type: 2}
-  _fourthParagraph: {fileID: 11400000, guid: c7d56499db29141468808d8635002e58, type: 2}
+  letterManager: {fileID: 870021753}
 --- !u!1 &1494342699
 GameObject:
   m_ObjectHideFlags: 0
@@ -702,7 +699,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 11c8e01dd842c3247839547263e6b1df, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _letterManager: {fileID: 870021753}
+  letterManager: {fileID: 870021753}
 --- !u!1 &1775216179
 GameObject:
   m_ObjectHideFlags: 0

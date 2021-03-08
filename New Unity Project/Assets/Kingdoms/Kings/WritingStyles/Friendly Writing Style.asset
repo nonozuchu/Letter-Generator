@@ -9,12 +9,8 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 687eb7722356f2044b0f465e08278c78, type: 3}
-  m_Name: Paragraph 4
+  m_Script: {fileID: 11500000, guid: e7ad2050394601847971d9a3f237eaf0, type: 3}
+  m_Name: Friendly Writing Style
   m_EditorClassIdentifier: 
-  possibleParagraphText:
-  - (0)
-  - (1)
-  - (2)
-  - (3)
-  - (4)
+  kingsFont: {fileID: 0}
+  paragraphsStyle: {fileID: 11400000, guid: 6023b7fff6ae12641b37962137dff544, type: 2}

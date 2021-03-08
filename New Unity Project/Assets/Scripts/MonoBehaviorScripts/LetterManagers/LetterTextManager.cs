@@ -1,31 +1,32 @@
-﻿using Messenger.CoreData;
+﻿
 using TMPro;
 using UnityEngine;
-using UnityEngine.Serialization;
 
 namespace Messenger.MonoBehaviorScripts.LetterManagers
 {
     public class LetterTextManager : MonoBehaviour
     {
-        [Header("Letter Paragraphs")]
-        [SerializeField] private Paragraph firstParagraph;
-        [SerializeField] private Paragraph secondParagraph;
-        [SerializeField] private Paragraph thirdParagraph;
-        [SerializeField] private Paragraph fourthParagraph;
+        [SerializeField] private LetterManager letterManager;
+        
         private string _letterText;
         private void Start()
         {
-            GenerateRandomText(firstParagraph);
-            GenerateRandomText(secondParagraph);
-            GenerateRandomText(thirdParagraph);
-            GenerateRandomText(fourthParagraph);
+            var paragraphsStyle = letterManager.senderKingdom.king.kingWritingStyle.paragraphsStyle;
 
-            GetComponent<TextMeshProUGUI>().text = _letterText;
+
+            GenerateRandomTextFromParagraphs(paragraphsStyle.firstParagraphsOptions);
+            GenerateRandomTextFromParagraphs(paragraphsStyle.secondParagraphsOptions);
+            GenerateRandomTextFromParagraphs(paragraphsStyle.thirdParagraphsOptions);
+            GenerateRandomTextFromParagraphs(paragraphsStyle.fourthParagraphsOptions);
+
+
+            GetComponent<TextMeshProUGUI>().text = 
+                _letterText + $"\nFrom: {letterManager.senderKingdom.kingdomName} \n";
         }
 
-        void GenerateRandomText(Paragraph _paragraph)
+        private void GenerateRandomTextFromParagraphs(string[] paragraphsOptions)
         {
-            _letterText += _paragraph.possibleParagraphText[Random.Range(0, _paragraph.possibleParagraphText.Length)] + "\n";
+            _letterText += paragraphsOptions[Random.Range(0, paragraphsOptions.Length)] + "\n";
         }
     }
 }

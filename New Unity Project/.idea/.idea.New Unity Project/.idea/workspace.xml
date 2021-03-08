@@ -1,34 +1,46 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ea7a79f9-cb9c-4853-ae6c-e9a4ba33b623" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/CoreData.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/CoreData/KingData.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/CoreData/KingData.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/CoreData/KingdomData.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/CoreData/Paragraph.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/CoreData/WritingStyle.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/CoreData/WritingStyle.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/MonoBehaviorScripts/LetterManagers.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/MonoBehaviorScripts/LetterManagers/LetterManager.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/MonoBehaviorScripts/LetterManagers/LetterStampManager.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/MonoBehaviorScripts/LetterManagers/LetterTextManager.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/ScriptableObjects/GeneralKingdomData.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.New Unity Project/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.New Unity Project/.idea/indexLayout.xml" afterDir="false" />
+    <list default="true" id="ea7a79f9-cb9c-4853-ae6c-e9a4ba33b623" name="Default Changelist" comment="added namespaces">
+      <change afterPath="$PROJECT_DIR$/Assets/Kingdoms/Kings.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Kingdoms/Kings/WritingStyles.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Kingdoms/Kings/WritingStyles/Friendly Writing Style.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Kingdoms/Kings/WritingStyles/Friendly Writing Style.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Kingdoms/Kings/WritingStyles/Paragraphs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Kingdoms/Kings/WritingStyles/Paragraphs/Friendly paragraphs.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Kingdoms/Kings/WritingStyles/Paragraphs/Friendly paragraphs.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Kingdoms/Kings/king 1.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Kingdoms/Kings/king 1.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/GeneralKingdomData.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/GeneralKingdomData/KingData.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/GeneralKingdomData/Paragraphs.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/GeneralKingdomData/WritingStyle.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/ScriptableObjects.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.New Unity Project/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.New Unity Project/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/MonoBehaviorScripts/LetterManager.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/MonoBehaviorScripts/LetterManager.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/MonoBehaviorScripts/LetterManagers/LetterManager.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/MonoBehaviorScripts/LetterStampManager.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/MonoBehaviorScripts/LetterStampManager.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/MonoBehaviorScripts/LetterManagers/LetterStampManager.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/MonoBehaviorScripts/LetterTextManager.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/MonoBehaviorScripts/LetterTextManager.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/MonoBehaviorScripts/LetterManagers/LetterTextManager.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/ScriptableObjects.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/ScriptableObjects/KingdomData.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/ScriptableObjects/KingdomData.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/CoreData/KingdomData.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/ScriptableObjects/Paragraph.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/ScriptableObjects/Paragraph.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/CoreData/Paragraph.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Packages/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/manifest.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Packages/packages-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/packages-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Kingdoms/Abyss Kingdom Data.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Kingdoms/Abyss Kingdom Data.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Kingdoms/Mountain Kingdom Data.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Kingdoms/Mountain Kingdom Data.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Kingdoms/Normal Kingdom Data.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Kingdoms/Normal Kingdom Data.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Kingdoms/Water Kingdom Data.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Kingdoms/Water Kingdom Data.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Paragraph 1.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Paragraph 1.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Paragraph 2.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Paragraph 2.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Paragraph 3.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Paragraph 3.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Paragraph 4.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Paragraph 4.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/CoreData/KingData.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/CoreData/KingData.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/GeneralKingdomData/KingData.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/CoreData/KingdomData.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/CoreData/KingdomData.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/CoreData/Paragraph.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/CoreData/Paragraph.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/GeneralKingdomData/Paragraphs.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/CoreData/WritingStyle.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/CoreData/WritingStyle.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/GeneralKingdomData/WritingStyle.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/MonoBehaviorScripts/LetterManagers/LetterManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/MonoBehaviorScripts/LetterManagers/LetterManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/MonoBehaviorScripts/LetterManagers/LetterTextManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/MonoBehaviorScripts/LetterManagers/LetterTextManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/ScriptableObjects/GeneralKingdomData.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorSettings.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,6 +53,7 @@
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/MonoBehaviorScripts/LetterManagers/LetterStampManager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/MonoBehaviorScripts/LetterManagers/LetterManager.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/A1AC446D-F41C-4A67-BECF-2F8317DC1792/05/109600a1/HideInInspector.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <changedPaths>
@@ -50,8 +63,15 @@
       <option value="$PROJECT_DIR$/Assembly-CSharp.csproj" />
       <option value="$PROJECT_DIR$/Assets/Scripts/MonoBehaviorScripts/LetterManagers/LetterStampManager.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/ScriptableObjects/GeneralKingdomData/KingdomData.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/MonoBehaviorScripts/LetterManagers/LetterManager.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/CoreData/Paragraph.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/CoreData/WritingStyle.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/CoreData/Paragraphs.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/CoreData/KingData.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/CoreData/KingdomData.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/MonoBehaviorScripts/LetterManagers/LetterManager.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/GeneralKingdomData/KingData.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/GeneralKingdomData/WritingStyle.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/GeneralKingdomData/Paragraphs.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/MonoBehaviorScripts/LetterManagers/LetterTextManager.cs" />
     </changedPaths>
   </component>
@@ -70,6 +90,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
     <configuration name="Attach to Unity Editor &amp; Play" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="UNITY_ATTACH_AND_PLAY" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
@@ -103,8 +124,17 @@
       <workItem from="1615120971780" duration="226000" />
       <workItem from="1615121556194" duration="246000" />
       <workItem from="1615122443245" duration="312000" />
-      <workItem from="1615122921852" duration="5536000" />
+      <workItem from="1615122921852" duration="19224000" />
+      <workItem from="1615203731012" duration="872000" />
     </task>
+    <task id="LOCAL-00001" summary="added namespaces">
+      <created>1615131086163</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1615131086163</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="UnityProjectConfiguration" hasMinimizedUI="true" />
@@ -124,5 +154,7 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+    <MESSAGE value="added namespaces" />
+    <option name="LAST_COMMIT_MESSAGE" value="added namespaces" />
   </component>
 </project>

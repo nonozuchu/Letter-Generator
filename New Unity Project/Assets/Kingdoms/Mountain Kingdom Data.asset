@@ -12,5 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7cc123c4bd42a664085bd30a4caecac1, type: 3}
   m_Name: Mountain Kingdom Data
   m_EditorClassIdentifier: 
+  king: {fileID: 11400000, guid: ef07f4ac7c57b0748b9574bfab2f1a93, type: 2}
   kingdomName: Mountain Kingdom
   kingdomStamp: {fileID: 21300000, guid: 0b1bf213a5f9c9f4c910dfc46f5d5d0f, type: 3}
